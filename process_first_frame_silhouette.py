@@ -1,3 +1,11 @@
+"""
+Script to generate segmentation masks using Meta's Segment anything. It takes the video
+file and the list of input points and outputs a video of the same length segmenting the input
+from its background.
+
+python process_first_frame_silhouette.py
+"""
+
 import torch
 import cv2
 import numpy as np

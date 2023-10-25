@@ -1,3 +1,7 @@
+"""
+UI tool to draw points on each frame of a video and save the points to a file
+"""
+
 import tkinter as tk
 import cv2
 from PIL import Image, ImageTk
