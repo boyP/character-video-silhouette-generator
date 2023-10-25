@@ -1,6 +1,6 @@
 # video-silhouette-generator
 
-Scripts to generate silhouettes of characters for film
+Scripts to generate silhouettes of characters for film. The silhouttes are generated using Meta's [Segment Anything](https://segment-anything.com) model. In order to run these scripts you will need to download the [`sam_vit_h_4b8939.pth`](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) model file and add it to the root of this project.
 
 There are 4 scripts in this project
 
